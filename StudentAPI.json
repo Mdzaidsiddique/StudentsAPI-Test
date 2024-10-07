@@ -1,0 +1,45 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John",
+      "location": "US",
+      "courses": [
+        "Java",
+        "Python",
+        "Ruby"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Doe",
+      "location": "UK",
+      "courses": [
+        "JavaScript",
+        "Python",
+        "Ruby",
+        "C#"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Zaid",
+      "location": "India",
+      "courses": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Alif",
+      "location": "India",
+      "courses": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  ]
+}
