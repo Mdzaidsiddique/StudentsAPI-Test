@@ -20,7 +20,7 @@ pipeline {
             echo 'Cleaning up workspace'
             cleanWs()
             echo 'Archiving Allure reports...'
-            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-report']]
         }
         success {
             echo 'Build succeeded, tests passed!'
