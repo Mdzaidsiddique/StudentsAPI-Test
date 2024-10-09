@@ -1,12 +1,12 @@
 {
-  "uid" : "9c1cf0936f61cbcb",
-  "name" : "Successfully student information",
-  "fullName" : "Add a new Student: Successfully student information",
-  "historyId" : "77a12ac3ca9e8eec615f5147639b959c",
+  "uid" : "e1725d2b7f13db1f",
+  "name" : "Successfully update Student information",
+  "fullName" : "Update student information: Successfully update Student information",
+  "historyId" : "2a734ee690e60b22f44f8ab5daf0ad01",
   "time" : {
-    "start" : 1728387529747,
-    "stop" : 1728387529754,
-    "duration" : 7
+    "start" : 1728387529757,
+    "stop" : 1728387529763,
+    "duration" : 6
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,72 +14,72 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I have the base URL and payload data of the StudentAPI",
+      "name" : "Given I have the base URL and updated student data",
       "time" : {
-        "start" : 1728387529747,
-        "stop" : 1728387529748,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "When I send a Post request to \"/students\"",
-      "time" : {
-        "start" : 1728387529748,
-        "stop" : 1728387529753,
-        "duration" : 5
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Then I should receive a 201 status code",
-      "time" : {
-        "start" : 1728387529753,
-        "stop" : 1728387529753,
+        "start" : 1728387529757,
+        "stop" : 1728387529757,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "And the response should contain that particular student data",
+      "name" : "When I send a PUT request to \"/students\" with \"/9152\"",
       "time" : {
-        "start" : 1728387529753,
-        "stop" : 1728387529753,
+        "start" : 1728387529758,
+        "stop" : 1728387529762,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should receive a 200 status code",
+      "time" : {
+        "start" : 1728387529763,
+        "stop" : 1728387529763,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And the response should contain updated student data",
+      "time" : {
+        "start" : 1728387529763,
+        "stop" : 1728387529763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -87,7 +87,7 @@
     "value" : "normal"
   }, {
     "name" : "feature",
-    "value" : "Add a new Student"
+    "value" : "Update student information"
   }, {
     "name" : "framework",
     "value" : "behave"
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9c1cf0936f61cbcb.json",
+  "source" : "e1725d2b7f13db1f.json",
   "parameterValues" : [ ]
 }

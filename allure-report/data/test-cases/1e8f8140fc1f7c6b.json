@@ -1,12 +1,12 @@
 {
-  "uid" : "3368253f2f8e2767",
-  "name" : "Successfully student information",
-  "fullName" : "Add a new Student: Successfully student information",
-  "historyId" : "77a12ac3ca9e8eec615f5147639b959c",
+  "uid" : "1e8f8140fc1f7c6b",
+  "name" : "Get student information",
+  "fullName" : "Student API Automation: Get student information",
+  "historyId" : "804f57bf0b24018a6e704ee78b643c87",
   "time" : {
-    "start" : 1728463651714,
-    "stop" : 1728463651719,
-    "duration" : 5
+    "start" : 1728463651704,
+    "stop" : 1728463651708,
+    "duration" : 4
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,72 +14,72 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I have the base URL and payload data of the StudentAPI",
+      "name" : "Given I have the base URL of the StudentAPI",
       "time" : {
-        "start" : 1728463651714,
-        "stop" : 1728463651715,
+        "start" : 1728463651704,
+        "stop" : 1728463651705,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "When I send a Post request to \"/students\"",
+      "name" : "When I send a GET request to \"/students\"",
       "time" : {
-        "start" : 1728463651715,
-        "stop" : 1728463651719,
-        "duration" : 4
+        "start" : 1728463651705,
+        "stop" : 1728463651707,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Then I should receive a 201 status code",
+      "name" : "Then I should receive a 200 status code",
       "time" : {
-        "start" : 1728463651719,
-        "stop" : 1728463651719,
+        "start" : 1728463651708,
+        "stop" : 1728463651708,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "And the response should contain that particular student data",
+      "name" : "And the response should contain student data",
       "time" : {
-        "start" : 1728463651719,
-        "stop" : 1728463651719,
+        "start" : 1728463651708,
+        "stop" : 1728463651708,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -87,7 +87,7 @@
     "value" : "normal"
   }, {
     "name" : "feature",
-    "value" : "Add a new Student"
+    "value" : "Student API Automation"
   }, {
     "name" : "framework",
     "value" : "behave"
@@ -105,17 +105,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "9c1cf0936f61cbcb",
+      "uid" : "69579137c6e461cc",
       "status" : "passed",
       "time" : {
-        "start" : 1728387529747,
-        "stop" : 1728387529754,
+        "start" : 1728387529739,
+        "stop" : 1728387529746,
         "duration" : 7
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3368253f2f8e2767.json",
+  "source" : "1e8f8140fc1f7c6b.json",
   "parameterValues" : [ ]
 }

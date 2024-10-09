@@ -1,11 +1,11 @@
 {
-  "uid" : "71927483df7f0ce4",
-  "name" : "Get student information",
-  "fullName" : "Student API Automation: Get student information",
-  "historyId" : "804f57bf0b24018a6e704ee78b643c87",
+  "uid" : "249daf67efd08938",
+  "name" : "Successfully student information",
+  "fullName" : "Add a new Student: Successfully student information",
+  "historyId" : "77a12ac3ca9e8eec615f5147639b959c",
   "time" : {
-    "start" : 1728387529739,
-    "stop" : 1728387529746,
+    "start" : 1728387529747,
+    "stop" : 1728387529754,
     "duration" : 7
   },
   "status" : "passed",
@@ -14,72 +14,72 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I have the base URL of the StudentAPI",
+      "name" : "Given I have the base URL and payload data of the StudentAPI",
       "time" : {
-        "start" : 1728387529739,
-        "stop" : 1728387529739,
+        "start" : 1728387529747,
+        "stop" : 1728387529748,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I send a Post request to \"/students\"",
+      "time" : {
+        "start" : 1728387529748,
+        "stop" : 1728387529753,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then I should receive a 201 status code",
+      "time" : {
+        "start" : 1728387529753,
+        "stop" : 1728387529753,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "When I send a GET request to \"/students\"",
-      "time" : {
-        "start" : 1728387529739,
-        "stop" : 1728387529746,
-        "duration" : 7
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
-      "name" : "Then I should receive a 200 status code",
+      "name" : "And the response should contain that particular student data",
       "time" : {
-        "start" : 1728387529746,
-        "stop" : 1728387529746,
+        "start" : 1728387529753,
+        "stop" : 1728387529753,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "And the response should contain student data",
-      "time" : {
-        "start" : 1728387529746,
-        "stop" : 1728387529746,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
-      "hasContent" : false
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -87,7 +87,7 @@
     "value" : "normal"
   }, {
     "name" : "feature",
-    "value" : "Student API Automation"
+    "value" : "Add a new Student"
   }, {
     "name" : "framework",
     "value" : "behave"
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71927483df7f0ce4.json",
+  "source" : "249daf67efd08938.json",
   "parameterValues" : [ ]
 }

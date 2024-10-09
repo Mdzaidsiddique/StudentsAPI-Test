@@ -1,5 +1,5 @@
 {
-  "uid" : "13e68acb5bd95d0b",
+  "uid" : "22c61cb382c0e5a2",
   "name" : "Successfully delete a student by ID",
   "fullName" : "Delete a student's information: Successfully delete a student by ID",
   "historyId" : "9c6a48aa6e0ee993854540844d596c27",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "When I send a DELETE request to \"/students/9152\"",
       "time" : {
@@ -43,10 +43,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then I should receive a 200 status code after delete",
       "time" : {
@@ -60,10 +60,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : true,
+      "hasContent" : true,
       "attachmentsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
     }, {
       "name" : "And the student with ID \"9152\" should be deleted",
       "time" : {
@@ -75,17 +75,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -118,6 +118,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "13e68acb5bd95d0b.json",
+  "source" : "22c61cb382c0e5a2.json",
   "parameterValues" : [ ]
 }

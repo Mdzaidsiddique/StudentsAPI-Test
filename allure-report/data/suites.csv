@@ -1,6 +1,6 @@
 "Status","Name","Duration in ms","Description"
-"failed","Update of student information with patch: Successfully updated single Student information with patch","4",""
 "passed","Add a new Student: Successfully student information","5",""
-"passed","Student API Automation: Get student information","4",""
+"failed","Update of student information with patch: Successfully updated single Student information with patch","4",""
 "failed","Update student information: Successfully update Student information","4",""
+"passed","Student API Automation: Get student information","4",""
 "failed","Delete a student's information: Successfully delete a student by ID","9",""

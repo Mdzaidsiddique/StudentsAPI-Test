@@ -5,7 +5,7 @@
     "name" : "Delete a student's information",
     "children" : [ {
       "name" : "Successfully delete a student by ID",
-      "uid" : "13e68acb5bd95d0b",
+      "uid" : "22c61cb382c0e5a2",
       "parentUid" : "c6d6538e9a4cc44c8e2f03bbb1ffc8ab",
       "status" : "failed",
       "time" : {
@@ -21,7 +21,7 @@
     "name" : "Student API Automation",
     "children" : [ {
       "name" : "Get student information",
-      "uid" : "c62b9e3041ccb93a",
+      "uid" : "1e8f8140fc1f7c6b",
       "parentUid" : "37b98e6f7773a245e5f175f76409fa68",
       "status" : "passed",
       "time" : {
@@ -37,7 +37,7 @@
     "name" : "Update of student information with patch",
     "children" : [ {
       "name" : "Successfully updated single Student information with patch",
-      "uid" : "35aab5d47455b8b0",
+      "uid" : "b160d45b700b912e",
       "parentUid" : "56062540bb030b230905793aae114bc4",
       "status" : "failed",
       "time" : {
@@ -53,7 +53,7 @@
     "name" : "Add a new Student",
     "children" : [ {
       "name" : "Successfully student information",
-      "uid" : "3368253f2f8e2767",
+      "uid" : "2f7b3198848cd554",
       "parentUid" : "9015a42a6b832397e03cb5b3ebf9d2a2",
       "status" : "passed",
       "time" : {
@@ -69,7 +69,7 @@
     "name" : "Update student information",
     "children" : [ {
       "name" : "Successfully update Student information",
-      "uid" : "92c84ec3fb277ea8",
+      "uid" : "f8217dff00b124d6",
       "parentUid" : "b51f976a341c5acb6d9304efd946be26",
       "status" : "failed",
       "time" : {

@@ -1,5 +1,5 @@
 {
-  "uid" : "92c84ec3fb277ea8",
+  "uid" : "f8217dff00b124d6",
   "name" : "Successfully update Student information",
   "fullName" : "Update student information: Successfully update Student information",
   "historyId" : "2a734ee690e60b22f44f8ab5daf0ad01",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "When I send a PUT request to \"/students\" with \"/9152\"",
       "time" : {
@@ -43,10 +43,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then I should receive a 200 status code",
       "time" : {
@@ -60,10 +60,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : true,
+      "hasContent" : true,
       "attachmentsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
     }, {
       "name" : "And the response should contain updated student data",
       "time" : {
@@ -75,17 +75,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -111,7 +111,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "71026346f1a41287",
+      "uid" : "e1725d2b7f13db1f",
       "status" : "passed",
       "time" : {
         "start" : 1728387529757,
@@ -126,6 +126,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "92c84ec3fb277ea8.json",
+  "source" : "f8217dff00b124d6.json",
   "parameterValues" : [ ]
 }

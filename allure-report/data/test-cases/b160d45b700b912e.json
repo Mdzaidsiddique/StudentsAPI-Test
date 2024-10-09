@@ -1,5 +1,5 @@
 {
-  "uid" : "35aab5d47455b8b0",
+  "uid" : "b160d45b700b912e",
   "name" : "Successfully updated single Student information with patch",
   "fullName" : "Update of student information with patch: Successfully updated single Student information with patch",
   "historyId" : "75829db0652f9f4bb930b1421e78e609",
@@ -28,10 +28,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "When I send a PATCH request to \"/students/9152\"",
       "time" : {
@@ -43,10 +43,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then I should receive a 200 status code after patch",
       "time" : {
@@ -60,10 +60,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : true,
+      "hasContent" : true,
       "attachmentsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
     }, {
       "name" : "And the response should contain updated student data with patch",
       "time" : {
@@ -75,17 +75,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -118,6 +118,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "35aab5d47455b8b0.json",
+  "source" : "b160d45b700b912e.json",
   "parameterValues" : [ ]
 }

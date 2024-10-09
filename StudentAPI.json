@@ -290,6 +290,16 @@
         "Python",
         "My SQL"
       ]
+    },
+    {
+      "id": "c280",
+      "name": "Shoaib",
+      "location": "India",
+      "courses": [
+        "Power BI",
+        "Python",
+        "My SQL"
+      ]
     }
   ]
 }

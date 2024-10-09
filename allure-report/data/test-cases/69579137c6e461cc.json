@@ -1,12 +1,12 @@
 {
-  "uid" : "71026346f1a41287",
-  "name" : "Successfully update Student information",
-  "fullName" : "Update student information: Successfully update Student information",
-  "historyId" : "2a734ee690e60b22f44f8ab5daf0ad01",
+  "uid" : "69579137c6e461cc",
+  "name" : "Get student information",
+  "fullName" : "Student API Automation: Get student information",
+  "historyId" : "804f57bf0b24018a6e704ee78b643c87",
   "time" : {
-    "start" : 1728387529757,
-    "stop" : 1728387529763,
-    "duration" : 6
+    "start" : 1728387529739,
+    "stop" : 1728387529746,
+    "duration" : 7
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,72 +14,72 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I have the base URL and updated student data",
+      "name" : "Given I have the base URL of the StudentAPI",
       "time" : {
-        "start" : 1728387529757,
-        "stop" : 1728387529757,
+        "start" : 1728387529739,
+        "stop" : 1728387529739,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "When I send a PUT request to \"/students\" with \"/9152\"",
+      "name" : "When I send a GET request to \"/students\"",
       "time" : {
-        "start" : 1728387529758,
-        "stop" : 1728387529762,
-        "duration" : 4
+        "start" : 1728387529739,
+        "stop" : 1728387529746,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Then I should receive a 200 status code",
       "time" : {
-        "start" : 1728387529763,
-        "stop" : 1728387529763,
+        "start" : 1728387529746,
+        "stop" : 1728387529746,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "And the response should contain updated student data",
+      "name" : "And the response should contain student data",
       "time" : {
-        "start" : 1728387529763,
-        "stop" : 1728387529763,
+        "start" : 1728387529746,
+        "stop" : 1728387529746,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "hasContent" : false,
       "attachmentsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "attachmentsCount" : 0,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -87,7 +87,7 @@
     "value" : "normal"
   }, {
     "name" : "feature",
-    "value" : "Update student information"
+    "value" : "Student API Automation"
   }, {
     "name" : "framework",
     "value" : "behave"
@@ -106,6 +106,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71026346f1a41287.json",
+  "source" : "69579137c6e461cc.json",
   "parameterValues" : [ ]
 }
