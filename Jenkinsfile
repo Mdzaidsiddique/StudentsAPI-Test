@@ -13,10 +13,9 @@ pipeline {
         }
     }
     post {
-        always{
-            bat 'allure generate allure-results --clean -o allure-report'
-        }
         always {
+            echo 'generating allure report...'
+            bat 'allure generate allure-results --clean -o allure-report'
             echo 'Archiving Allure results...'
             archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
         }
