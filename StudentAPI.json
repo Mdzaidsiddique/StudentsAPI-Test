@@ -52,17 +52,6 @@
       ]
     },
     {
-      "name": "Mohd Salman Mansoori",
-      "location": "India",
-      "courses": [
-        "Power BI",
-        "Python",
-        "My SQL",
-        "Poetry"
-      ],
-      "id": "9152"
-    },
-    {
       "id": "f1e8",
       "name": "salman",
       "location": "India",
@@ -254,6 +243,26 @@
     },
     {
       "id": "ec69",
+      "name": "Shoaib",
+      "location": "India",
+      "courses": [
+        "Power BI",
+        "Python",
+        "My SQL"
+      ]
+    },
+    {
+      "id": "f213",
+      "name": "Shoaib",
+      "location": "India",
+      "courses": [
+        "Power BI",
+        "Python",
+        "My SQL"
+      ]
+    },
+    {
+      "id": "b85e",
       "name": "Shoaib",
       "location": "India",
       "courses": [
