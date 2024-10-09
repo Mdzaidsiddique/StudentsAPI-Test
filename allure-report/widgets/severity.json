@@ -1,1 +1,51 @@
-[ ]
+[ {
+  "uid" : "3368253f2f8e2767",
+  "name" : "Successfully student information",
+  "time" : {
+    "start" : 1728463651714,
+    "stop" : 1728463651719,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35aab5d47455b8b0",
+  "name" : "Successfully updated single Student information with patch",
+  "time" : {
+    "start" : 1728463651709,
+    "stop" : 1728463651713,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c62b9e3041ccb93a",
+  "name" : "Get student information",
+  "time" : {
+    "start" : 1728463651704,
+    "stop" : 1728463651708,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13e68acb5bd95d0b",
+  "name" : "Successfully delete a student by ID",
+  "time" : {
+    "start" : 1728463651693,
+    "stop" : 1728463651702,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "92c84ec3fb277ea8",
+  "name" : "Successfully update Student information",
+  "time" : {
+    "start" : 1728463651721,
+    "stop" : 1728463651725,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

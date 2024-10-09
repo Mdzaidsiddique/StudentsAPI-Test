@@ -1,4 +1,59 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 5,
+  "items" : [ {
+    "uid" : "c6d6538e9a4cc44c8e2f03bbb1ffc8ab",
+    "name" : "Delete a student's information",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56062540bb030b230905793aae114bc4",
+    "name" : "Update of student information with patch",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b51f976a341c5acb6d9304efd946be26",
+    "name" : "Update student information",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "37b98e6f7773a245e5f175f76409fa68",
+    "name" : "Student API Automation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9015a42a6b832397e03cb5b3ebf9d2a2",
+    "name" : "Add a new Student",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

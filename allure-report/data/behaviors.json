@@ -1,5 +1,85 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Delete a student's information",
+    "children" : [ {
+      "name" : "Successfully delete a student by ID",
+      "uid" : "13e68acb5bd95d0b",
+      "parentUid" : "c6d6538e9a4cc44c8e2f03bbb1ffc8ab",
+      "status" : "failed",
+      "time" : {
+        "start" : 1728463651693,
+        "stop" : 1728463651702,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c6d6538e9a4cc44c8e2f03bbb1ffc8ab"
+  }, {
+    "name" : "Student API Automation",
+    "children" : [ {
+      "name" : "Get student information",
+      "uid" : "c62b9e3041ccb93a",
+      "parentUid" : "37b98e6f7773a245e5f175f76409fa68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728463651704,
+        "stop" : 1728463651708,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "37b98e6f7773a245e5f175f76409fa68"
+  }, {
+    "name" : "Update of student information with patch",
+    "children" : [ {
+      "name" : "Successfully updated single Student information with patch",
+      "uid" : "35aab5d47455b8b0",
+      "parentUid" : "56062540bb030b230905793aae114bc4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1728463651709,
+        "stop" : 1728463651713,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "56062540bb030b230905793aae114bc4"
+  }, {
+    "name" : "Add a new Student",
+    "children" : [ {
+      "name" : "Successfully student information",
+      "uid" : "3368253f2f8e2767",
+      "parentUid" : "9015a42a6b832397e03cb5b3ebf9d2a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728463651714,
+        "stop" : 1728463651719,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9015a42a6b832397e03cb5b3ebf9d2a2"
+  }, {
+    "name" : "Update student information",
+    "children" : [ {
+      "name" : "Successfully update Student information",
+      "uid" : "92c84ec3fb277ea8",
+      "parentUid" : "b51f976a341c5acb6d9304efd946be26",
+      "status" : "failed",
+      "time" : {
+        "start" : 1728463651721,
+        "stop" : 1728463651725,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b51f976a341c5acb6d9304efd946be26"
+  } ]
 }

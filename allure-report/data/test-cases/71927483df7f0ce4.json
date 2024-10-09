@@ -1,0 +1,111 @@
+{
+  "uid" : "71927483df7f0ce4",
+  "name" : "Get student information",
+  "fullName" : "Student API Automation: Get student information",
+  "historyId" : "804f57bf0b24018a6e704ee78b643c87",
+  "time" : {
+    "start" : 1728387529739,
+    "stop" : 1728387529746,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I have the base URL of the StudentAPI",
+      "time" : {
+        "start" : 1728387529739,
+        "stop" : 1728387529739,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When I send a GET request to \"/students\"",
+      "time" : {
+        "start" : 1728387529739,
+        "stop" : 1728387529746,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should receive a 200 status code",
+      "time" : {
+        "start" : 1728387529746,
+        "stop" : 1728387529746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And the response should contain student data",
+      "time" : {
+        "start" : 1728387529746,
+        "stop" : 1728387529746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Student API Automation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71927483df7f0ce4.json",
+  "parameterValues" : [ ]
+}

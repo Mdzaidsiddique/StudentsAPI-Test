@@ -1,1 +1,100 @@
-{ }
+{
+  "77a12ac3ca9e8eec615f5147639b959c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3368253f2f8e2767",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728463651714,
+        "stop" : 1728463651719,
+        "duration" : 5
+      }
+    } ]
+  },
+  "9c6a48aa6e0ee993854540844d596c27" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13e68acb5bd95d0b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 404\n",
+      "time" : {
+        "start" : 1728463651693,
+        "stop" : 1728463651702,
+        "duration" : 9
+      }
+    } ]
+  },
+  "804f57bf0b24018a6e704ee78b643c87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c62b9e3041ccb93a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728463651704,
+        "stop" : 1728463651708,
+        "duration" : 4
+      }
+    } ]
+  },
+  "2a734ee690e60b22f44f8ab5daf0ad01" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92c84ec3fb277ea8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1728463651721,
+        "stop" : 1728463651725,
+        "duration" : 4
+      }
+    } ]
+  },
+  "75829db0652f9f4bb930b1421e78e609" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35aab5d47455b8b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1728463651709,
+        "stop" : 1728463651713,
+        "duration" : 4
+      }
+    } ]
+  }
+}

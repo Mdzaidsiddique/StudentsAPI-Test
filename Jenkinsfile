@@ -6,21 +6,26 @@ pipeline {
                 bat 'pip install -r requirements.txt'
             }
         }
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/Mdzaidsiddique/StudentsAPI-Test.git'
+            }
+        }
         stage('Run API Tests') {
             steps {
-                bat 'behave'
+                bat 'behave -f allure_behave.formatter:AllureFormatter -o allure-results/ features/'
+            }
+        }
+        stage('Generate Allure Report') {
+            steps {
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
     }
     post {
-        // always {
-        //     archiveArtifacts artifacts: 'reports/*.xml', allowEmptyArchive: true
-        // }
         always {
-            echo 'Cleaning up workspace'
-            cleanWs()
-            echo 'Archiving Allure reports...'
-            allure includeProperties: false, jdk: '', results: [[path: 'allure-report']]
+            echo 'Archiving Allure results...'
+            archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
         }
         success {
             echo 'Build succeeded, tests passed!'
